@@ -1,0 +1,36 @@
+
+#principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+
+}
+
+body {
+	background-image: url('fondo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+				header{
+					color: red;
+					font-family: Impact;
+				}
+				body{
+						text-align: center;
+						color: white;
+						background-color: black;
+						 padding: 5px;
+						 font-size: 18px;
+				}
+				button{
+						text-align: center;
+						color: white;
+						background-color: rgb(15, 211, 32);
+						 padding: 5px;
+						 font-size: 18px;
+						 font-family: Impact;
+				}
+</style>
