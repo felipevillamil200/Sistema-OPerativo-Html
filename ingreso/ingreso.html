@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" type="text/css" href="estilo.css">
+     <script src="js/hora.js"></script>
+     <title></title>
+
+
+  <html>
+  	<head>
+  		<title>INICIO</title>
+  		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+  	</head>
+
+    <body>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p><img src="img\uno.png" width="250" height="250" >
+  <h1><span style="color: #ff0000;">Loging</span></h1>
+  <h1>Username:<input name="user" required="true" type="text" placeholder="user" /><br />Password:<input name="direccion" required="true" type="password" placeholder="Password" /><br
+    /><button onclick="window.location.href='sistema_operativo/S.operativo.html'">Insertar</button></h1>
+  <div id="gtx-trans" style="position: absolute; left: 72px; top: 616.881px;">
+  <div class="gtx-trans-icon">&nbsp;</div>
+  </div>
+  <html>
+  <head>
+  <script type="text/javascript">
+  function startTime()
+  {
+  var today=new Date();
+  var h=today.getHours();
+  var m=today.getMinutes();
+  var s=today.getSeconds();
+  // add a zero in front of numbers<10
+  m=checkTime(m);
+  s=checkTime(s);
+  document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+  t=setTimeout('startTime()',500);
+  }
+  function checkTime(i)
+  {
+  if (i<10)
+  {
+  i="0" + i;
+  }
+  return i;
+  }
+  </script>
+  </head>
+  <body onload="startTime()">
+  <div id="txt"></div>
+  <div id="current_date"></p>
+<script>
+date = new Date();
+year = date.getFullYear();
+month = date.getMonth() + 1;
+day = date.getDate();
+document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+</script>
+  </body>
+
+  <script type="text/javascript">
+      window.history.forward();
+      function sinVueltaAtras(){ window.history.forward(); }
+  </script>
+
+  <BODY onload="sinVueltaAtras();" onpageshow="if (event.persisted) sinVueltaAtras();" onunload=""></script>
+  </html>
+
+
+  </html>
